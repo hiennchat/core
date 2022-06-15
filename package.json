@@ -1,6 +1,6 @@
 {
-  "name": "@vtjs/core",
-  "version": "0.2.6",
+  "name": "@hiennc/core",
+  "version": "1.0.0",
   "description": "Help you focus business logic",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -21,13 +21,13 @@
     "typescript",
     "express"
   ],
-  "author": "Nguyen Van Tuan",
+  "author": "Hien Nguyen",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vtuanjs/core.git"
+    "url": "git+https://github.com/hiennchat/core.git"
   },
-  "homepage": "https://github.com/vtuanjs/core#readme",
+  "homepage": "https://github.com/hiennchat/core#readme",
   "devDependencies": {
     "@types/chai": "^4.2.18",
     "@types/compression": "^1.7.0",
@@ -52,5 +52,9 @@
     "compression": "^1.7.4",
     "cors": "^2.8.5",
     "express": "^4.17.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
