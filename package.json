@@ -1,6 +1,6 @@
 {
   "name": "@hiennc/core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Help you focus business logic",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
