@@ -10,7 +10,7 @@ import {
   Request,
   Response,
   NextFunction,
-  sendSuccessReponse
+  sendSuccessResponse
 } from '../src';
 
 class UserController extends Controller {
@@ -27,7 +27,7 @@ class UserController extends Controller {
   async getUser(req: Request, res: Response, next: NextFunction) {
     const result = 'GET USER';
 
-    sendSuccessReponse(result, res);
+    sendSuccessResponse(result, res);
   }
 
   async create(req: Request, res: Response, next: NextFunction) {

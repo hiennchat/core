@@ -10,7 +10,7 @@ export function sendErrorResponse(e: any, res: Response): void {
   res.json(error);
 }
 
-export function sendSuccessReponse(data: any, res: Response): void {
+export function sendSuccessResponse(data: any, res: Response): void {
   res.json(data);
 }
 
