@@ -44,8 +44,8 @@ export abstract class MainApplication {
     controllers.forEach((controller) => this.app.use(controller.router));
   }
 
-  protected setupControllers(...controllers: IController[]): void {
-    controllers.forEach((controller) => this.app.use(controller.router));
+  protected setupControllers(version: string, ...controllers: IController[]): void {
+    controllers.forEach((controller) => this.app.use(version, controller.router));
 
     this.app.use(this.handleNotImplementedError);
     this.app.use(this.handleRequestError);
